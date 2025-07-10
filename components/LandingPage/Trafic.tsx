@@ -1,6 +1,5 @@
 import React from "react";
 import { InfiniteMovingCardsDemo } from "../ui/MovingCards";
-import { section } from "motion/react-client";
 
 function Trafic() {
   return (

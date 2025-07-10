@@ -7,7 +7,7 @@ function HeroSection() {
       <div className="container mx-auto">
         <div className="grid grid-cols-12 gap-1">
           <div className="col-span-12 md:col-span-8 order-2 md:order-1">
-            {/* <DraggableCardDemo /> */}
+            <DraggableCardDemo />
           </div>
           <div className="col-span-12 md:col-span-4 order-1 md:order-2">
             <h2 className="text-white text-[2rem] md:text-[3rem] leading-[1.1em] font-semibold ml-[1rem] md:ml-[0rem]">

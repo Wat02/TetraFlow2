@@ -8,7 +8,6 @@ import Homedecor from "@/public/homeDecor.png";
 import Nudge from "@/public/Agency.png";
 import Design from "@/public/design.png";
 import Link from "next/link";
-import { section } from "motion/react-client";
 
 const containerVariant = {
   hidden: {},

@@ -3,7 +3,6 @@
 import React from "react";
 import { motion, Variants } from "framer-motion";
 import Testamonial from "../ui/Testamonial";
-import { section } from "motion/react-client";
 
 const cardVariant: Variants = {
   hidden: { opacity: 0, y: 30, scale: 0.95 },

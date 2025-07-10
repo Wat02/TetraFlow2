@@ -3,7 +3,6 @@
 import React from "react";
 import Testamonial from "../ui/Testamonial";
 import { motion } from "framer-motion";
-import { section } from "motion/react-client";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
