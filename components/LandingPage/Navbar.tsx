@@ -34,7 +34,7 @@ function Navbar() {
               </Link>
               <Link href="busniessAutomation">
                 <p className="text-[1rem] font-semibold pt-[2.3rem]">
-                  Automatisation
+                  Automation
                 </p>
               </Link>
               <div className="pt-[1.8rem] ml-[10px]">

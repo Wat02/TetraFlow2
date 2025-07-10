@@ -66,7 +66,7 @@ function Projects() {
                       <div className="rounded-[10px] ">
                         <div className="col-span-12 md:col-span-8">
                           <div className="flex">
-                            <div className="relative group overflow-hidden rounded-lg  pt-[1rem]  ">
+                            <div className="relative group overflow-hidden rounded-lg">
                               <Image
                                 src={Homedecor} // replace with your image path
                                 alt="Decorative"
