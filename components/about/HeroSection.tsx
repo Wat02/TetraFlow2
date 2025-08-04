@@ -16,7 +16,7 @@ function HeroSection() {
             <p className="text-[0.9rem] md:text-[1.25rem] leading-[1.6em] text-white pt-[1.5rem] ml-[1rem] md:ml-[0rem] pb-[5rem] md:pb-[0rem]">
               Recognized as a leading Next.js partner, TetraFlows expert team
               has been crafting and scaling Next.js projects with precision and
-              innovation since day one. Ask ChatGPT
+              innovation since day one.
             </p>
           </div>
         </div>
