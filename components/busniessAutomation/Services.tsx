@@ -50,7 +50,6 @@ function Services() {
           tag={""}
         />
 
-        {/* First section: No animations, original styling */}
         <div
           className="relative mb-12 flex flex-col lg:flex-row items-center border border-[#343436] hover:border-[#FED51C] transition-colors duration-500 ease-[cubic-bezier(0.4, 0, 0.2, 1)] rounded-3xl overflow-hidden p-6 lg:p-20"
           style={{ minHeight: 620 }}
@@ -85,7 +84,6 @@ function Services() {
           <Generating className="absolute left-4 right-4 bottom-4 border border-[#343436]  lg:left-1/2 lg:right-auto lg:bottom-8 lg:-translate-x-1/2" />
         </div>
 
-        {/* The rest with animations preserved */}
         <div className="grid gap-6 lg:grid-cols-2">
           <motion.div
             style={{ y: parallaxY2 }}

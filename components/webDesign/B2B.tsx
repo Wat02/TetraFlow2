@@ -10,7 +10,7 @@ const fadeUpVariant = {
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.5, ease: "easeOut" }, // slightly faster transition
+    transition: { duration: 0.5, ease: "easeOut" },
   },
 };
 

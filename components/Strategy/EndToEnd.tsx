@@ -8,7 +8,7 @@ type SectionType = {
   id: string;
   title: string;
   description: string;
-  columns?: string[]; // additional content in two columns
+  columns?: string[];
 };
 
 const sections: SectionType[] = [
@@ -120,7 +120,6 @@ export default function EndToGrowSection() {
           </ul>
         </div>
 
-        {/* Scrollable Right */}
         <div className="md:w-2/3 space-y-32">
           {sections.map((section, index) => (
             <SectionBlock
@@ -136,7 +135,6 @@ export default function EndToGrowSection() {
   );
 }
 
-// Section block with animation and 2-column content
 const SectionBlock = ({
   section,
   index,
@@ -168,7 +166,6 @@ const SectionBlock = ({
         {section.description}
       </p>
 
-      {/* Two-column detail under each description */}
       {section.columns && (
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 ml-[1rem] md:ml-[0]">
           {section.columns.map((item, i) => (

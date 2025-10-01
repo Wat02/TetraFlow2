@@ -65,7 +65,7 @@ const cardVariants = {
 export default function Compaire() {
   return (
     <section className="pt-20 px-6 md:px-12 mx-auto text-[#EBE9E3] relative">
-      {/* Header */}
+      
       <div className="mb-12 text-center max-w-3xl mx-auto px-4">
         <p className="text-lg font-semibold uppercase tracking-wide text-[#CCCFD5]">
           See the difference
@@ -76,7 +76,6 @@ export default function Compaire() {
       </div>
 
       <div className="flex flex-col md:flex-row gap-6 md:gap-12">
-        {/* Features Column (desktop only) */}
         <div className="hidden md:flex flex-col min-w-[180px] space-y-16 text-[#9FA4A8] font-medium tracking-wide text-base pt-[11%]">
           {features.map((feature) => (
             <div key={feature} className="relative pl-4">
@@ -86,7 +85,6 @@ export default function Compaire() {
           ))}
         </div>
 
-        {/* Comparison Cards - vertical on mobile, grid on desktop */}
         <div className="grid gap-6 md:grid-cols-3 w-full">
           {compareData.map(({ title, borderColor, bgColor, details }) => (
             <motion.div

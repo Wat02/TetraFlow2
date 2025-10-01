@@ -51,12 +51,12 @@ function PricingHero() {
           animate={isInView ? "visible" : "hidden"}
           className="grid grid-cols-12 gap-1 text-center pt-[3rem]"
         >
-          {/* Yellow small text from left */}
+         
           <p className="col-span-12 text-[#FED51C] text-[1.125rem] leading-[1em] font-semibold">
             Next.js Development Packages
           </p>
 
-          {/* Main heading from right */}
+         
           <motion.h1
             custom="right"
             variants={textVariants}
@@ -65,7 +65,6 @@ function PricingHero() {
             One subscription. <br /> Total growth support.
           </motion.h1>
 
-          {/* Paragraph block scaling up */}
           <motion.div
             custom="scale"
             variants={textVariants}

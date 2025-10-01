@@ -178,7 +178,6 @@ export function Carousel({ slides }: CarouselProps) {
   const [current, setCurrent] = useState(0);
   const id = useId();
 
-  // Keyboard navigation
   useEffect(() => {
     const onKeyDown = (e: KeyboardEvent) => {
       if (e.key === "ArrowLeft")
@@ -190,7 +189,6 @@ export function Carousel({ slides }: CarouselProps) {
     return () => window.removeEventListener("keydown", onKeyDown);
   }, [slides.length]);
 
-  // Swipe support
   const touchStartX = useRef<number | null>(null);
   const touchEndX = useRef<number | null>(null);
 
@@ -233,7 +231,6 @@ export function Carousel({ slides }: CarouselProps) {
         ))}
       </ul>
 
-      {/* Pagination dots */}
       <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex space-x-3 z-20">
         {slides.map((_, i) => (
           <button

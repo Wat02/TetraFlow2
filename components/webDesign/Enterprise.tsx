@@ -24,7 +24,6 @@ const steps = [
 const Enterprise: React.FC = () => (
   <section className="pt-32 px-4 md:px-8 text-[#EBE9E3]">
     <div className="max-w-screen-xl mx-auto">
-      {/* Header */}
       <header className="text-center">
         <h2 className="text-[2rem] md:text-[4rem] font-semibold leading-tight">
           Enterprise-tested design process that delivers results
@@ -35,7 +34,7 @@ const Enterprise: React.FC = () => (
         </p>
       </header>
 
-      {/* Process Cards */}
+     
       <motion.div
         className="mt-16 grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4"
         initial="hidden"
@@ -64,7 +63,7 @@ const Enterprise: React.FC = () => (
         ))}
       </motion.div>
 
-      {/* Referral CTA */}
+     
       <div className="mt-16 bg-[#B6274B] text-center py-12 rounded-lg">
         <h3 className="text-[1.5rem] md:text-[1.75rem] font-semibold mb-2">
           Refer us & earn 5% from recommendation
@@ -77,7 +76,7 @@ const Enterprise: React.FC = () => (
         </button>
       </div>
 
-      {/* Testimonial */}
+     
       <div className="mt-16">
         <Testamonial />
       </div>

@@ -3,7 +3,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-// Animation variants
 const containerVariant = {
   hidden: {},
   visible: {

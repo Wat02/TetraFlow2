@@ -96,7 +96,6 @@ function Roadmap() {
                       </div>
                     </div>
 
-                    {/* Image with pop animation */}
                     <motion.div
                       className="mb-10 -my-10 -mx-15"
                       variants={imagePopVariants}

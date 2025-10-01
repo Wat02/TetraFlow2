@@ -9,19 +9,15 @@ import Notification from "@/components/busniessAutomation/Notification";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 function Hero() {
-  // Ref for the image container to base scroll progress on
   const ref = useRef<HTMLDivElement>(null);
 
-  // Get scroll progress relative to this container
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["start end", "end start"],
   });
 
-  // Parallax transforms for main robot image (move vertically on scroll)
   const robotY = useTransform(scrollYProgress, [0, 1], [30, -30]);
 
-  // Smaller parallax for icons (move horizontally on scroll)
   const iconsX = useTransform(scrollYProgress, [0, 1], [-20, 20]);
   const notificationX = useTransform(scrollYProgress, [0, 1], [20, -20]);
 
@@ -51,7 +47,6 @@ function Hero() {
           </button>
         </div>
 
-        {/* Image & overlays with parallax */}
         <div
           ref={ref}
           className="w-[90%] mx-auto relative z-0 select-none"
@@ -61,7 +56,6 @@ function Hero() {
             <div className="relative bg-n-8 rounded-[1rem]">
               <div className="bg-n-10 rounded-t-[0.9rem]" />
               <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490] relative">
-                {/* Main robot image with vertical parallax */}
                 <motion.div style={{ y: robotY }} className="absolute inset-0">
                   <Image
                     src={robot}
@@ -72,10 +66,8 @@ function Hero() {
                   />
                 </motion.div>
 
-                {/* Generating component absolutely positioned */}
                 <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" />
 
-                {/* Hero Icons with horizontal parallax */}
                 <motion.ul
                   style={{ x: iconsX }}
                   className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-[#2f2a3e] backdrop-blur border border-n-1/10 rounded-2xl xl:flex"
@@ -93,7 +85,6 @@ function Hero() {
                   ))}
                 </motion.ul>
 
-                {/* Notification box with opposite horizontal parallax */}
                 <motion.div
                   style={{ x: notificationX }}
                   className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"

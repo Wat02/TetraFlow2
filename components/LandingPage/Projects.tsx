@@ -169,7 +169,6 @@ function Projects() {
                   </motion.div>
                 </motion.div>
 
-                {/* Repeat for HomeDecor project block with same animation pattern */}
                 <Link href="https://tetra-flow.vercel.app/">
                   <motion.h3
                     className="ml-[7%] text-[1.4rem] md:text-[2.5rem] mb-[1.5rem] leading-[1.2em] pt-[5rem] md:pt-[5.5%] font-semibold "

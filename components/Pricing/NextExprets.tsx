@@ -65,9 +65,9 @@ const NextExperts: React.FC = () => {
     <section className="pt-12 md:pt-24 px-4 ">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-12 gap-6">
-          {/* Section Title */}
+        
           <div className="col-span-12">
-            {/* <AnimatedElement> */}
+          
             <h2 className="text-3xl md:text-5xl font-bold leading-tight text-[#EBE9E3] max-w-[90%] md:max-w-[65%]">
               Partner with Next.js <span className="text-[#FED51C]">pros</span>{" "}
               focused on your <span className="font-bold">success</span>
@@ -75,7 +75,7 @@ const NextExperts: React.FC = () => {
             {/* </AnimatedElement> */}
           </div>
 
-          {/* Feature Cards */}
+         
           {features.map((item, index) => (
             <div
               key={index}

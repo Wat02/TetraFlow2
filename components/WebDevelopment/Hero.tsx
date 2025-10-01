@@ -40,7 +40,6 @@ function Hero() {
     <section className=" text-[#EBE9E3] py-12">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-12 gap-6">
-          {/* Button */}
           <motion.div
             className="col-span-12"
             initial="hidden"
@@ -53,7 +52,6 @@ function Hero() {
             </button>
           </motion.div>
 
-          {/* Heading */}
           <motion.div
             className="col-span-12"
             initial="hidden"
@@ -66,7 +64,6 @@ function Hero() {
             </h2>
           </motion.div>
 
-          {/* Description Text */}
           <motion.div
             className="col-span-12 md:col-span-6"
             initial="hidden"
@@ -81,7 +78,6 @@ function Hero() {
             </p>
           </motion.div>
 
-          {/* Buttons Group */}
           <motion.div
             className="col-span-12 md:col-span-6 flex justify-start md:justify-center items-start gap-6 mt-4"
             initial="hidden"
@@ -97,7 +93,6 @@ function Hero() {
             </p>
           </motion.div>
 
-          {/* Image */}
           <motion.div
             className="col-span-12 mt-8"
             initial={{ opacity: 0, scale: 0.95 }}

@@ -37,7 +37,6 @@ export default function Finding() {
     <section className="pt-[2rem] md:pt-[7rem] px-6 sm:px-10 md:px-16 lg:px-24 min-h-screen">
       <div className="container mx-auto ">
         <div className="grid grid-cols-12 gap-6">
-          {/* Big #findingmy Heading */}
           <motion.div
             className="col-span-12"
             initial="hidden"
@@ -53,7 +52,6 @@ export default function Finding() {
             </motion.h2>
           </motion.div>
 
-          {/* Left Text Block */}
           <motion.div
             className="col-span-12 md:col-span-6 flex items-start"
             initial="hidden"
@@ -70,7 +68,6 @@ export default function Finding() {
             </motion.p>
           </motion.div>
 
-          {/* Right Big Flow Heading */}
           <motion.div
             className="col-span-12 md:col-span-6 flex items-center justify-start md:justify-end"
             initial="hidden"
@@ -86,12 +83,10 @@ export default function Finding() {
             </motion.h2>
           </motion.div>
 
-          {/* Design Component */}
           <div className="col-span-12  mt-8">
             <Design />
           </div>
 
-          {/* Learn More Text */}
           <motion.p
             className="col-span-12 text-white text-center pt-12 text-[1.3rem] leading-[1.2em] underline cursor-pointer select-none"
             initial={{ opacity: 0, y: 20 }}

@@ -45,7 +45,7 @@ function Projects() {
                       <div className="flex">
                         <div className="relative group overflow-hidden rounded-lg  ">
                           <Image
-                            src={Homedecor} // replace with your image path
+                            src={Homedecor} 
                             alt="Decorative"
                             className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                           />
@@ -68,7 +68,7 @@ function Projects() {
                           <div className="flex">
                             <div className="relative group overflow-hidden rounded-lg">
                               <Image
-                                src={Homedecor} // replace with your image path
+                                src={Homedecor}
                                 alt="Decorative"
                                 className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                               />
@@ -101,7 +101,7 @@ function Projects() {
                       <div className="flex">
                         <div className="relative group overflow-hidden rounded-lg ">
                           <Image
-                            src={Homedecor} // replace with your image path
+                            src={Homedecor}
                             alt="Decorative"
                             className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                           />
@@ -124,7 +124,7 @@ function Projects() {
                           <div className="flex">
                             <div className="relative group overflow-hidden rounded-lg">
                               <Image
-                                src={Homedecor} // replace with your image path
+                                src={Homedecor} 
                                 alt="Decorative"
                                 className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                               />
@@ -157,7 +157,7 @@ function Projects() {
                       <div className="flex">
                         <div className="relative group overflow-hidden rounded-lg shadow-lg">
                           <Image
-                            src={Homedecor} // replace with your image path
+                            src={Homedecor} 
                             alt="Decorative"
                             className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                           />
@@ -180,7 +180,7 @@ function Projects() {
                           <div className="flex">
                             <div className="relative group overflow-hidden rounded-lg shadow-lg">
                               <Image
-                                src={Homedecor} // replace with your image path
+                                src={Homedecor} 
                                 alt="Decorative"
                                 className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                               />

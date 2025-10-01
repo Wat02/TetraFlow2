@@ -170,7 +170,6 @@ function BentoPricing() {
             </motion.ul>
           </motion.div>
 
-          {/* Extra Info & Contact */}
           <motion.div
             className="col-span-12 md:col-span-4 space-y-6 pt-[1rem] md:pt-[2.6rem]"
             variants={fadeUpVariants}

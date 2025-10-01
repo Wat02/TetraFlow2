@@ -37,7 +37,6 @@ function TrackAgency() {
     offset: ["start start", "end end"],
   });
 
-  // Scroll scrub animation (headline)
   const yHeadline = useTransform(scrollYProgress, [0, 1], ["0%", "-10%"]);
 
   return (
@@ -46,7 +45,6 @@ function TrackAgency() {
       className="pt-[5rem] text-[#EBE9E3] overflow-hidden"
     >
       <div className="container mx-auto">
-        {/* Sticky section for stats */}
         <motion.div style={{ position: "sticky", top: "10vh", zIndex: 1 }}>
           <div className="grid grid-cols-12 gap-1">
             <motion.div
@@ -96,7 +94,7 @@ function TrackAgency() {
           </div>
         </motion.div>
 
-        {/* Divider */}
+       
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -107,7 +105,7 @@ function TrackAgency() {
         </motion.div>
       </div>
 
-      {/* Services */}
+      
       <div className="container mx-auto pt-[5rem]">
         <motion.h2
           initial={{ opacity: 0, y: 50 }}

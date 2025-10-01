@@ -46,7 +46,6 @@ function GrowYour() {
     },
   ];
 
-  // Your buttons data with separate text for each block
   const buttonsData = [
     [
       {

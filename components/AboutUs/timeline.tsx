@@ -49,7 +49,6 @@ export default function AboutSection() {
     offset: ["start end", "end start"],
   });
 
-  // Smooth spring for path length and parallax
   const pathLength = useSpring(useTransform(scrollYProgress, [0, 1], [0, 1]), {
     stiffness: 100,
     damping: 20,
@@ -60,7 +59,6 @@ export default function AboutSection() {
     damping: 18,
   });
 
-  // Split heading into words
   const headline = "about us";
   const words = headline.split(" ");
 
@@ -69,7 +67,6 @@ export default function AboutSection() {
       ref={containerRef}
       className=" text-white py-20 px-6 sm:px-12 md:px-20 lg:px-28 font-sans relative overflow-hidden"
     >
-      {/* Header */}
       <div className="max-w-6xl mx-auto text-center">
         <motion.h1
           className="text-[3.75rem] sm:text-6xl md:text-7xl lg:text-[8rem] font-extrabold mb-12 tracking-tight"
@@ -120,9 +117,7 @@ export default function AboutSection() {
         </motion.p>
       </div>
 
-      {/* Process Section */}
       <div className="relative mt-32 max-w-7xl mx-auto ">
-        {/* Curved SVG Path */}
         <motion.svg
           viewBox="0 0 400 1000"
           className="absolute left-1/2 top-0 transform -translate-x-1/2 w-[60vw] max-w-[400px] h-[1000px] z-0 select-none pointer-events-none hidden md:block"
@@ -141,7 +136,6 @@ export default function AboutSection() {
           />
         </motion.svg>
 
-        {/* Steps */}
         <div className="relative z-10 flex flex-col gap-32 mt-10">
           {steps.map((step, idx) => (
             <motion.div

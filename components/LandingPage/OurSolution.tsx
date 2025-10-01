@@ -24,7 +24,6 @@ function OurSolution() {
 
       <div className="container mx-auto pt-[50px]">
         <div className="grid grid-cols-12 gap-1">
-          {/* First Block */}
           <div className="col-span-12 md:col-span-4 pb-[1.8rem]">
             <motion.h3
               className="text-[#EBE9E3] pl-[2.5%] md:pl-[0] text-[1.5rem] md:text-[1.75rem] font-semibold leading-[1.3em]"
@@ -45,7 +44,7 @@ function OurSolution() {
             </motion.p>
           </div>
 
-          {/* Second Block */}
+         
           <div className="col-span-12 md:col-span-4 pb-[1.8rem]">
             <motion.h3
               className="text-[#EBE9E3] text-[1.5rem] md:text-[1.75rem] pl-[2.5%] md:pl-[0] font-semibold leading-[1.3em]"
@@ -66,7 +65,7 @@ function OurSolution() {
             </motion.p>
           </div>
 
-          {/* Third Block */}
+        
           <div className="col-span-12 md:col-span-4 pb-[1.8rem]">
             <motion.h3
               className="text-[#EBE9E3] text-[1.5rem] md:text-[1.75rem] pl-[2.5%] md:pl-[0] font-semibold leading-[1.3em]"

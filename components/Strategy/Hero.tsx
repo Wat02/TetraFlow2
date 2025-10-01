@@ -5,7 +5,6 @@ import Image from "next/image";
 import ui from "@/public/ui.jpg";
 import { motion } from "framer-motion";
 
-// Animation variants
 const textVariant = {
   hidden: { opacity: 0, y: 60, scale: 0.9 },
   visible: {
@@ -41,7 +40,7 @@ function Hero() {
     <section className=" text-[#EBE9E3] py-16 md:py-24">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
-          {/* Animated Text */}
+         
           <motion.div
             className="md:col-span-6 space-y-6"
             initial="hidden"
@@ -80,7 +79,7 @@ function Hero() {
             </motion.a>
           </motion.div>
 
-          {/* Animated Image */}
+        
           <motion.div
             className="md:col-span-6 flex justify-center md:justify-end"
             initial="hidden"

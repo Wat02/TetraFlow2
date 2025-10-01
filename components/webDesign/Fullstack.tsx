@@ -87,7 +87,7 @@ export default function ParallaxSection() {
               </h4>
               <p className="text-[1rem] leading-[1.6em] tracking-[.03em] font-medium w-full md:w-[78%]">
                 Crafting custom illustrations that bring your brand to life and
-                create a memorable visual impact. Ask ChatGPT
+                create a memorable visual impact.
               </p>
             </div>
           ))}
